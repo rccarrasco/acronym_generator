@@ -161,9 +161,9 @@ class Title(str):
 """
 
 try:
-    case_sensitive = (sys.argv[2] == '-c')
+    case_sensitive = '-i' not in sys.argv
 except IndexError:
-    case_sensitive = False
+    case_sensitive = True
 try:
     title = Title(sys.argv[1], case_sensitive) 
 except IndexError:
