@@ -12,5 +12,7 @@ no letter from the word "for" needs to be in the acronym and results such as CLI
 A word with at least one uppercase letter will be however necessarily present in the acronym 
 (with at least one of its uppercase characters).
 
+The code also loads a file with stopwords, that is, words that will be considered optional by default.   
+
 
 
